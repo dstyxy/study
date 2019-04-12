@@ -1,13 +1,13 @@
 <template>
-  <div class="main">study</div>
+  <div class="test">{{msg}}</div>
 </template>
 
 <script>
 export default {
-  name:'Main',
+  name:'Test',
   data() {
     return {
-      
+      msg:'5a4sd54'
     }
   }  
 }

@@ -1,0 +1,55 @@
+html,
+body {
+  font-size: 14px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+  font-size: inherit;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+/* 列表 */
+ul,
+ol {
+  list-style: none;
+}
+/* 表单元素 */
+input,button,select,textarea{
+  appearance: none;
+  outline:none;
+}
+/*  */
+img {
+  width:100%;
+  max-width: 100%;
+}
+/*  */
+i {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*  */
+
+video {
+  background-color: #ccc;
+}
+
+audio {
+  background-color: #ccc;
+}
+
+canvas{
+  display: block;
+}
